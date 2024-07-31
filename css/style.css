@@ -1,22 +1,59 @@
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* Header*/
-#topo > h1{
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(252, 239, 239);
+
+header {
+    background-color: steelblue;
+    color: white;
+    padding: 1rem;
     text-align: center;
-    background-color: rgb(33, 1, 59);
 }
-body{
-    background-color: rgb(209, 209, 209);
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
-.destaques{
-    background-color: rgb(245, 202, 187);
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
 }
-#menu{
-    background-color: rgb(194, 190, 184);
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.produto {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 150px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.produto p {
+    margin-top: 10px;
 }
